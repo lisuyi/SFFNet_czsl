@@ -1,6 +1,6 @@
 
 # Compositional Zero-Shot Learning
-This is the PyTorch code of 2023 works [Combining Spatial-Frequency Features for Compositional Zero-Shot Learning](https://). 
+This is the PyTorch code of 2023 works [Fusing Spatial-Frequency Features for Compositional Zero-Shot Learning](https://). 
 The code provides the detailed implementation of SFFNet, and we also provide the weights of model for validation.
 
 <p align="center">
