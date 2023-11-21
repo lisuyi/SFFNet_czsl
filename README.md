@@ -1,7 +1,7 @@
 
 # Compositional Zero-Shot Learning
 This is the PyTorch code of 2023 works [Fusing Spatial-Frequency Features for Compositional Zero-Shot Learning](https://). 
-The code provides the detailed implementation of SFFNet, and we also provide the weights of model for validation.
+The code provides the detailed implementation of SFFNet, and we also provide the model weights for validation.
 
 <p align="center">
   <img src="utils/final_arch.png" />
@@ -10,8 +10,7 @@ The code provides the detailed implementation of SFFNet, and we also provide the
 ## Setup
 1. Clone the code. 
 
-2. Please prepare the datasets and the necessary configuration files before you start, 
-the organization procedure can be referred to: [CGE](https://github.com/ExplainableML/czsl)
+2. Please prepare the datasets and the necessary configuration files before you start. The organization procedure can be referred to: [CGE](https://github.com/ExplainableML/czsl)
 
 3. We recommend using Anaconda for environment setup. We export the environments we used for simplicity:
 
@@ -22,12 +21,12 @@ the organization procedure can be referred to: [CGE](https://github.com/Explaina
 
 ## Quick Validation
 
-We save the training weights of our model in folder `validation`, the metrics results
+We save the training weights of our model in folder `validation`, and the final results
 presented in the paper can be tested by the [weights](https://drive.google.com/drive/folders/1FLUavllgIZupk5rSVl_wabz4iWDLE330?usp=drive_link).
-The pretrained weights of frequency feature encoder GFNet-H-Ti
+The pre-trained weights of frequency feature encoder GFNet-H-Ti
 can be downloaded from [GFNet](https://github.com/raoyongming/GFNet), 
 we also prepare a [duplicate](https://drive.google.com/file/d/1sPeKcn0QoANiyaxvBVBTYGgwuuFXAsmE/view?usp=drive_link).  
-**Note**: make sure your download files organize as follows,
+**Note**: make sure your download files are organized as follows,
 ```
 SFFNet_czsl
     └─ configs
@@ -92,7 +91,7 @@ where `LOG` is your directory containing the logs of a model.
 
 
 ## Acknowledgement
-Our code is based on the following excellent projects, please consider citing:
+Our code is based on the following excellent projects. Please consider citing:
   
 *[CGE](https://github.com/ExplainableML/czsl)
   
