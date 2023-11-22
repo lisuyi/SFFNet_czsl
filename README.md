@@ -97,4 +97,4 @@ Our code is based on the following excellent projects. Please consider citing:
   
 *[GFNet](https://github.com/raoyongming/GFNet)
   
-*[CANet](https://github.com/Forest-art/DFSP)
+*[DFSP](https://github.com/Forest-art/DFSP)
